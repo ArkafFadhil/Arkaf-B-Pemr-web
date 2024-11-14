@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web layout</title>
+    <style>
+        .header{
+            background-color: yellow;
+            height: 50px;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .nav{
+            background-color: orange;
+            height: 20px;
+            text-align: center;
+        }
+
+        .main{
+            display: flex;
+            background-color: red;
+            height: 180px;
+        }
+
+        .sidebar{
+            background-color: maroon;
+            height: 180px;
+            width: 30%;
+            padding-left: 20px;
+        }
+        .content{
+            background-color: green;
+            height: 180px;
+            width: 70%;
+            text-align: center;
+        }
+
+        .footer{
+            background-color: aqua;
+            height: 40px;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="header">HEADER</div>
+    <div class="nav">
+        Home
+        Profil
+        Kontak
+    </div>
+    <div class="main">
+        <div class="sidebar">sidebar</div>
+        <div class="content">content</div>
+    </div>
+
+    <div class="footer">
+        Footer
+    </div>
+    
+</body>
+</html>
