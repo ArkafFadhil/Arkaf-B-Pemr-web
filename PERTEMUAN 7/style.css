@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.atas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+  
+    
+}
+
+hr{
+    width: 90%;  
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a.active {
+    color: rgb(218, 145, 48);
+}
+
+.shop-section {
+    text-align: center;
+    background-color: white;
+}
+
+.shop-section h1 {
+    font-size: 36px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.shop-section p {
+    width: 60%;
+    color: rgb(73, 73, 73);
+    margin: auto ;
+
+}
+
+.product-carousel {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.carousel-btn {
+    background-color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #8e7349;
+    
+}
+
+
+.products {
+    display: flex;
+    gap: 10px;
+    
+    
+}
+
+.product-card {
+    padding: 20px;
+    width: 180px;
+    text-align: center;
+    border: 1px solid rgb(167, 167, 167);
+    
+}
+
+.product-card img {
+    width: 180px;
+    height: 150px;
+}
+
+.product-card h3 {
+    font-size: 18px;
+    color: rgb(44, 43, 43);
+   
+}
+
+.product-card p {
+    color: #8e7349;
+    font-weight: bold;
+    
+    
+}
+
+.product-card button {
+    padding: 10px 20px ;
+    border: none;
+    background-color: rgb(190, 190, 190);
+    font-weight: bold;
+    
+   
+}
+
+
+
